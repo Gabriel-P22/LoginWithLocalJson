@@ -14,6 +14,16 @@
 		48F69E9429BD0EA700F2ADE4 /* apPDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69E9329BD0EA700F2ADE4 /* apPDemoTests.swift */; };
 		48F69E9E29BD0EA700F2ADE4 /* apPDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69E9D29BD0EA700F2ADE4 /* apPDemoUITests.swift */; };
 		48F69EA029BD0EA700F2ADE4 /* apPDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69E9F29BD0EA700F2ADE4 /* apPDemoUITestsLaunchTests.swift */; };
+		48F69EAF29BD0EEF00F2ADE4 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69EAE29BD0EEF00F2ADE4 /* MockService.swift */; };
+		48F69EB229BD0FBA00F2ADE4 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69EB129BD0FBA00F2ADE4 /* Bundle.swift */; };
+		48F69EB929BD115000F2ADE4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69EB829BD115000F2ADE4 /* Person.swift */; };
+		48F69EBD29BD125D00F2ADE4 /* Person.json in Resources */ = {isa = PBXBuildFile; fileRef = 48F69EBC29BD125D00F2ADE4 /* Person.json */; };
+		48F69EC229BD130500F2ADE4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69EC129BD130500F2ADE4 /* Login.swift */; };
+		48F69EC429BD132200F2ADE4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69EC329BD132200F2ADE4 /* LoginViewModel.swift */; };
+		48F69EC829BD138C00F2ADE4 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69EC729BD138C00F2ADE4 /* LoginService.swift */; };
+		48F69ECA29BD183700F2ADE4 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69EC929BD183700F2ADE4 /* LoginUseCase.swift */; };
+		48F69ECC29BD208D00F2ADE4 /* CustomerResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 48F69ECB29BD208D00F2ADE4 /* CustomerResponse.json */; };
+		48F69ECE29BD20C500F2ADE4 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F69ECD29BD20C500F2ADE4 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,16 @@
 		48F69E9929BD0EA700F2ADE4 /* apPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F69E9D29BD0EA700F2ADE4 /* apPDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apPDemoUITests.swift; sourceTree = "<group>"; };
 		48F69E9F29BD0EA700F2ADE4 /* apPDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apPDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48F69EAE29BD0EEF00F2ADE4 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		48F69EB129BD0FBA00F2ADE4 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		48F69EB829BD115000F2ADE4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		48F69EBC29BD125D00F2ADE4 /* Person.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Person.json; sourceTree = "<group>"; };
+		48F69EC129BD130500F2ADE4 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		48F69EC329BD132200F2ADE4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		48F69EC729BD138C00F2ADE4 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		48F69EC929BD183700F2ADE4 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		48F69ECB29BD208D00F2ADE4 /* CustomerResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CustomerResponse.json; sourceTree = "<group>"; };
+		48F69ECD29BD20C500F2ADE4 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +115,8 @@
 		48F69E8029BD0EA500F2ADE4 /* apPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				48F69EBE29BD12D500F2ADE4 /* Models */,
+				48F69EAC29BD0EBD00F2ADE4 /* Infrastruct */,
 				48F69E8129BD0EA500F2ADE4 /* apPDemoApp.swift */,
 				48F69E8329BD0EA500F2ADE4 /* ContentView.swift */,
 				48F69E8529BD0EA700F2ADE4 /* Assets.xcassets */,
@@ -127,6 +149,110 @@
 				48F69E9F29BD0EA700F2ADE4 /* apPDemoUITestsLaunchTests.swift */,
 			);
 			path = apPDemoUITests;
+			sourceTree = "<group>";
+		};
+		48F69EAC29BD0EBD00F2ADE4 /* Infrastruct */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EB029BD0FA600F2ADE4 /* Extension */,
+				48F69EB329BD10B700F2ADE4 /* Network */,
+			);
+			path = Infrastruct;
+			sourceTree = "<group>";
+		};
+		48F69EAD29BD0EDD00F2ADE4 /* ServiceLayerConfig */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EAE29BD0EEF00F2ADE4 /* MockService.swift */,
+			);
+			path = ServiceLayerConfig;
+			sourceTree = "<group>";
+		};
+		48F69EB029BD0FA600F2ADE4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EB129BD0FBA00F2ADE4 /* Bundle.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		48F69EB329BD10B700F2ADE4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EC629BD137B00F2ADE4 /* Service */,
+				48F69EC529BD135F00F2ADE4 /* UseCase */,
+				48F69EB429BD10C400F2ADE4 /* Models */,
+				48F69EAD29BD0EDD00F2ADE4 /* ServiceLayerConfig */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		48F69EB429BD10C400F2ADE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EB729BD114600F2ADE4 /* Parser */,
+				48F69EB629BD113D00F2ADE4 /* EndPoints */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48F69EB629BD113D00F2ADE4 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EBC29BD125D00F2ADE4 /* Person.json */,
+				48F69ECB29BD208D00F2ADE4 /* CustomerResponse.json */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		48F69EB729BD114600F2ADE4 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EB829BD115000F2ADE4 /* Person.swift */,
+				48F69ECD29BD20C500F2ADE4 /* Customer.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		48F69EBE29BD12D500F2ADE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EBF29BD12DB00F2ADE4 /* Components */,
+				48F69EC029BD12E200F2ADE4 /* Login */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48F69EBF29BD12DB00F2ADE4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		48F69EC029BD12E200F2ADE4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EC129BD130500F2ADE4 /* Login.swift */,
+				48F69EC329BD132200F2ADE4 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		48F69EC529BD135F00F2ADE4 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EC929BD183700F2ADE4 /* LoginUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		48F69EC629BD137B00F2ADE4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				48F69EC729BD138C00F2ADE4 /* LoginService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +361,8 @@
 			files = (
 				48F69E8A29BD0EA700F2ADE4 /* Preview Assets.xcassets in Resources */,
 				48F69E8629BD0EA700F2ADE4 /* Assets.xcassets in Resources */,
+				48F69ECC29BD208D00F2ADE4 /* CustomerResponse.json in Resources */,
+				48F69EBD29BD125D00F2ADE4 /* Person.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +387,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F69EB929BD115000F2ADE4 /* Person.swift in Sources */,
+				48F69ECE29BD20C500F2ADE4 /* Customer.swift in Sources */,
 				48F69E8429BD0EA500F2ADE4 /* ContentView.swift in Sources */,
+				48F69EB229BD0FBA00F2ADE4 /* Bundle.swift in Sources */,
+				48F69EC229BD130500F2ADE4 /* Login.swift in Sources */,
 				48F69E8229BD0EA500F2ADE4 /* apPDemoApp.swift in Sources */,
+				48F69EAF29BD0EEF00F2ADE4 /* MockService.swift in Sources */,
+				48F69EC429BD132200F2ADE4 /* LoginViewModel.swift in Sources */,
+				48F69EC829BD138C00F2ADE4 /* LoginService.swift in Sources */,
+				48F69ECA29BD183700F2ADE4 /* LoginUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
